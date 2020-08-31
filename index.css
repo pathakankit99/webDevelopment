@@ -1,0 +1,97 @@
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background: #0d0d0d;
+	color:#fff;
+	overflow:hidden;
+}
+#bgImg img{
+	width:50vw;
+	filter: contrast(120%);
+	filter: brightness(80%);
+}
+#beatsLogo{
+	position: absolute;
+	left:-5%;
+	width: 40vw;
+	z-index:-1;
+}
+#beatsLogoRed{
+	position: absolute;
+	top: 7vh;
+	left: 5.5vw;
+	width: 4vw;
+}
+#heroContent{
+	position:absolute;
+	top: 40vh;
+	left: 7vw;
+}
+h1{
+	font-size: 3em;
+	font-weight: bold;
+}
+h3{
+	font-size: 2em;
+	color: #e87979;              
+}
+h6{
+	font-size: 1em;
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-weight: 100;
+	line-height: 25px;
+}
+strong{
+	font-weight: 600;
+}
+a h6{
+	display: inline-block;
+	color: #fff;
+	font-size: 1em;
+}
+#button{
+	margin-top: 5vh;
+	border-style: solid;
+	padding: 0 10px 0 10px;
+	width: 70%;
+	border-radius: 30px;
+	border-color:#e87979; 
+}
+#button:hover{
+	background-color: #e87979; 
+}
+#button svg{
+	position: absolute;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 5px;;
+	border-style: solid;
+	border-color: #fff;
+	border-radius:50%;
+	border-width: 1px;
+}
+#menu{
+	position: absolute;
+	top:10vh;
+	left: 30vw;
+	width: 40vw;
+}
+#menu a{
+	color: rgb(148, 145, 145);
+	margin: 40px;
+	padding-bottom: 3px;
+}
+#menu .active{
+	color: #fff;
+	margin: 40px;
+	border-bottom-style: solid;
+	border-color: #e87979;
+}
+
